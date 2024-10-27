@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <title>Shop Now - Flower Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Flower Shop</h1>
+        
+    </header>
+    
+    <main>
+        <h2>Order Your Flowers</h2>
+        <form action="#" method="POST">
+            <label for="flower">Choose a flower:</label>
+            <select id="flower" name="flower">
+                <option value="rose"> Red Rose</option>
+                <option value="tulip">Tulip Bouquet</option>
+                <option value="lily">White Lilies</option>
+                <option value="sunflower">Sunflowers</option>
+                <option value="orchid">Orchid Blooms</option>
+                <option value="daisies">Daisies</option>
+                <option value="birdof paradise">Bird of Paradise</option>
+                <option value="protea">Protea</option>
+                <option value="passion flower">Passion Flower</option>
+                <option value="magnolia">Magnolia</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Flower Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

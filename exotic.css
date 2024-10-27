@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:bisque;
+    color: #333333;
+}
+
+header {
+    background-color: rgb(159, 87, 36);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #e91e63;
+}
+
+.hero-section {
+    background-image: url('exotic-flowers-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+.exotic-flowers {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.exotic-flowers h2 {
+    font-size: 36px;
+    color: #e91e63;
+    margin-bottom: 40px;
+}
+
+.flower-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flower-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.flower-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.flower-item h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.flower-item p {
+    font-size: 18px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;}

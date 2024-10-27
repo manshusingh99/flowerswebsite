@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5f7;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #e91e63;
+}
+
+.products-hero {
+    background-image: url('flower-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:antiquewhite;
+}
+
+.hero-text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.products-gallery {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.products-gallery h2 {
+    font-size: 36px;
+    color: #e91e63;
+    margin-bottom: 50px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
